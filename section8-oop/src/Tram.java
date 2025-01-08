@@ -3,4 +3,8 @@ public class Tram extends Vehicle {
     public void start() {
         System.out.println("Tram started");
     }
+
+    public void closeDoors() {
+        System.out.println("Attention. The doors are closed.");
+    }
 }
